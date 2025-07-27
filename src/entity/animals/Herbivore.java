@@ -37,7 +37,6 @@ public abstract class Herbivore extends Animal {
             }
         }
     }
-
     @Override
     public void reproduce() {
         if (currentLocation == null) return;

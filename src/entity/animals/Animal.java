@@ -7,6 +7,7 @@ import island.Location;
 import java.util.concurrent.ThreadLocalRandom;
 
 public abstract class Animal extends Entity {
+
     protected int maxCountPerCell;
     protected int speed;
     protected double maxFoodNeeded;

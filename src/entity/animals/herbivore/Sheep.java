@@ -4,6 +4,7 @@ import entity.animals.Animal;
 import entity.animals.Herbivore;
 
 public class Sheep extends Herbivore {
+
     public Sheep() {
         super("Sheep", 70.0, 140, 3, 15.0);
     }

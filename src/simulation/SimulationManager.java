@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.concurrent.*;
 
 public class SimulationManager {
+
     private final Island island;
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
