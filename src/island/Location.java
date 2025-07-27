@@ -22,6 +22,7 @@ public class Location {
     public int getCol() {
         return col;
     }
+
     public void addEntity(Entity entity) {
         entities.add(entity);
     }

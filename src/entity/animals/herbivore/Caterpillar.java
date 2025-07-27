@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Caterpillar extends Herbivore {
+
     public Caterpillar() {
         super("Caterpillar", 0.01, 1000, 0, 0);
     }

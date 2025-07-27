@@ -11,7 +11,6 @@ import java.util.Random;
 public class Island {
     public static final int WIDTH = 100;
     public static final int HEIGHT = 20;
-
     private final Location[][] locations = new Location[HEIGHT][WIDTH];
     private final Random random = new Random();
 

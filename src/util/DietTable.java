@@ -87,6 +87,7 @@ public class DietTable {
         if (diet != null) {
             return diet.getOrDefault(prey, 0);
         }
+
         return 0;
     }
 }
